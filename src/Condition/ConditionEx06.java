@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class ConditionEx06 {
     public static void main(String[] args) {
 
-/*      회원의 등급이 A, B, C, D가 있습니다.
+/*
+        회원의 등급이 A, B, C, D가 있습니다.
         등급이 A일 경우 : VVIP와 VIP 혜택
         등급이 B일 경우 : VIP 혜택
         등급이 C일 경우 : 우수회원과 일반회원 혜택

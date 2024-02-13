@@ -22,7 +22,7 @@ public class LoopEx04 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("출력하고 싶은 별의 줄 수를 입력하세요 : ");
+        System.out.print("별을 몇 줄까지 출력할까요? ");
         int enteredNumber = scanner.nextInt();
 
         for (int line = 0; line < enteredNumber; line++) {

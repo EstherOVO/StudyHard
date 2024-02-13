@@ -47,10 +47,10 @@ public class LoopEx08 {
                     balance -= withdraw;
                     break;
                 case 3 :
-                    System.out.print("\'잔고\'를 클릭하셨습니다. 총 잔액은 " + balance + "원 입니다.");
+                    System.out.println("\'잔고\'를 클릭하셨습니다. 총 잔액은 " + balance + "원 입니다.");
                     break;
                 case 4 :
-                    System.out.print("\'종료\'를 클릭하셨습니다.이용해 주셔서 감사합니다.");
+                    System.out.println("\'종료\'를 클릭하셨습니다.이용해 주셔서 감사합니다.");
                     runApp = false;
                     break;
             }

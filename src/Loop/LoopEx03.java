@@ -21,7 +21,7 @@ public class LoopEx03 {
         for (int timesTable = firstNumber; timesTable <=secondNumber; timesTable++) {
             System.out.println(timesTable + "단 : ");
             for (int result = 1; result <= 9; result++) {
-                System.out.println(timesTable + " X " + result + " = " + (timesTable * result));
+                System.out.println(timesTable + " x " + result + " = " + (timesTable * result));
             }
         }
 

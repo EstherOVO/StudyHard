@@ -19,7 +19,7 @@ public class LoopEx04_2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("출력하고 싶은 다이아몬드 패턴 줄 수를 입력하세요(홀수) : ");
+        System.out.print("다이아몬드 패턴 만들기!\n몇 줄로 구성된 다이아몬드를 보고 싶으신가요?(홀수로 입력해 주세요.) : ");
         int enteredNumber = scanner.nextInt();
 
         for (int line1 = 0; line1 < enteredNumber; line1 += 2) {

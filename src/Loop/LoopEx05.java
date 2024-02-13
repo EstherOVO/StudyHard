@@ -13,9 +13,9 @@ public class LoopEx05 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("첫 번째 정수 : ");
+        System.out.print("시작 정수 : ");
         int firstNumber = scanner.nextInt();
-        System.out.print("두 번째 정수 : ");
+        System.out.print("끝 정수 : ");
         int secondNumber = scanner.nextInt();
 
         System.out.print(firstNumber + " ~ " + secondNumber + " 사이의 짝수 :");

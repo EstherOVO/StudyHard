@@ -3,7 +3,7 @@ package Class;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class ClassEx01 {
+public class ProductOrder_Ex01 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

@@ -1,4 +1,4 @@
-package Loop;
+package loop;
 
 public class LoopEx01 {
     public static void main(String[] args) {

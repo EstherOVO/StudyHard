@@ -4,8 +4,8 @@ import java.text.DecimalFormat;
 
 public class ShoppingCart {
 
-    Item[] items;
-    int itemCount;
+    private Item[] items;
+    private int itemCount;
 
     public ShoppingCart() {
         this.items = new Item[10];

@@ -1,4 +1,4 @@
-package Package;
+package package00;
 
 public class Library_Ex01 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Class;
+package class00;
 
 public class Book_Ex03 {
     public static void main(String[] args) {

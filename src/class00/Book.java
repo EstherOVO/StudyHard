@@ -1,4 +1,4 @@
-package Class;
+package class00;
 
 public class Book {
 

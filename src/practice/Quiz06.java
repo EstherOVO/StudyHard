@@ -3,7 +3,7 @@ package practice;
 public class Quiz06 {
     public static void main(String[] args) {
 
-        GameCharacter gameCharacter = new GameCharacter("귤", 10, 100);
+        GameCharacter gameCharacter = new GameCharacter("감", 10, 100);
         GameCharacter gameCharacter1 = new GameCharacter("오렌지", 15, 150);
 
         gameCharacter.attack();

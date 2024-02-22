@@ -6,7 +6,7 @@ public class Quiz07 {
         ShoppingCart shoppingCart = new ShoppingCart();
 
         Item item1 = new Item("물", 1000, 1);
-        Item item2 = new Item("과자", 1000, 2);
+        Item item2 = new Item("음료슈", 1000, 2);
 
         shoppingCart.addItem(item1);
         shoppingCart.addItem(item2);

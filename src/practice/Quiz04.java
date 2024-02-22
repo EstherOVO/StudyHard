@@ -5,7 +5,7 @@ public class Quiz04 {
 
         int[][] arr = {{1, 2}, {3, 4}, {5, 6}};
 
-        System.out.print("모든 배열 : ");
+        System.out.print("배열의 수 : ");
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 if (i == arr.length - 1 && j == arr[i].length - 1) {
@@ -22,6 +22,6 @@ public class Quiz04 {
                 sum += arr[i][j];
             }
         }
-        System.out.println("\nsum : " + sum);
+        System.out.println("\n합계 : " + sum);
     }
 }

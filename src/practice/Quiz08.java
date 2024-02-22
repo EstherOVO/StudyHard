@@ -6,6 +6,6 @@ public class Quiz08 {
         System.out.println("Max of 10, 20 : " + MathUtility.max(10, 20));
         System.out.println("Min of 10, 20 : " + MathUtility.min(10, 20));
         System.out.println("Sum of 10, 20 : " + MathUtility.sum(10, 20));
-        System.out.println("Factorial of 5 : " + MathUtility.factorial(5));
+        System.out.println("Factorial of 3 : " + MathUtility.factorial(3));
     }
 }

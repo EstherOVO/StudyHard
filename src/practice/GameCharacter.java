@@ -3,7 +3,7 @@ package practice;
 public class GameCharacter {
 
 /*
-    GameCharacter를 설계해 주세요.
+    GameCharacter
 
     attack() : 콘솔에 "name attacks!" 메시지를 출력하는 메서드
     takeDamage(int damage): 캐릭터가 받은 데미지를 health에서 차감하는 메서드

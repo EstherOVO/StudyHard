@@ -17,6 +17,6 @@ public class Quiz05 {
             sum += arr[i];
         }
 
-        System.out.println("Total Price : " + sum);
+        System.out.println("합계 : " + sum);
     }
 }

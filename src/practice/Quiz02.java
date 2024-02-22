@@ -34,7 +34,7 @@ public class Quiz02 {
                 }
                 break;
             default:
-                System.out.println("다시 시도해 주시기를 바랍니다.");
+                System.out.println("다시 시도해 주시기 바랍니다.");
         }
     }
 }

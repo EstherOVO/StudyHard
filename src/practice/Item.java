@@ -3,11 +3,9 @@ package practice;
 public class Item {
 
 /*
-    연습문제5 : 장바구니
-    Item 클래스와 ShoppingCart 클래스를 설계하세요.
+    장바구니
 
-    요구사항
-    ===
+    Item 클래스와 ShoppingCart 클래스를 설계하세요.
     Item 클래스와 ShoppingCart 클래스는 다른 패키지에서도 사용 가능해야 합니다.
     ShoppingCart에는 상품(Item 객체)을 최대 10개까지만 담을 수 있습니다.
     10개 초과하여 상품을 추가하려고 하면, "장바구니가 가득 찼습니다."를 출력합니다.
@@ -23,12 +21,12 @@ public class Item {
         cart.displayItems();
     }
 
-    실행결과
+    실행 결과
     ===
     장바구니 상품 출력
-    상품명:당근, 합계:4500
-    상품명:양파, 합계:10000
-    전체 가격 합:14500
+    상품명 : 당근, 합계 : 4500
+    상품명 : 양파, 합계 : 10000
+    전체 가격 합 : 14500
 
 
     Hint

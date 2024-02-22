@@ -7,13 +7,13 @@ public class Quiz02 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("첫 번째 정수 : ");
+        System.out.print("첫 번째 정수를 입력해 주세요 : ");
         int firstNumber = scanner.nextInt();
 
-        System.out.print("두 번째 정수 : ");
+        System.out.print("두 번째 정수를 입력해 주세요 : ");
         int secondNumber = scanner.nextInt();
 
-        System.out.print("연산자 : ");
+        System.out.print("연산자를 입력해 주세요 : ");
         String operator = scanner.next();
 
         switch (operator) {

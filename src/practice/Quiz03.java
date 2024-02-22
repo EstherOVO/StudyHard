@@ -16,13 +16,13 @@ public class Quiz03 {
 
         for (int i = 1; i <= 100; i++) {
             if (guessNumber < randomNumber) {
-                System.out.println("Up!");
+                System.out.println("업");
                 guessNumber = scanner.nextInt();
             } else if (guessNumber > randomNumber) {
-                System.out.println("Down!");
+                System.out.println("다운");
                 guessNumber = scanner.nextInt();
             } else if (guessNumber == randomNumber) {
-                System.out.println("정답입니다!");
+                System.out.println("정답입니다.");
                 break;
             }
         }

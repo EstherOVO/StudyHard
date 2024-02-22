@@ -10,7 +10,7 @@ public class Quiz01 {
         System.out.print("몇 단부터 : ");
         int firstnumber = scanner.nextInt();
 
-        System.out.println("몇 단까지 : ");
+        System.out.print("몇 단까지 : ");
         int secondNumber = scanner.nextInt();
 
         for (int i = firstnumber; i <= secondNumber ; i++) {

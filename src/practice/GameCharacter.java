@@ -3,12 +3,12 @@ package practice;
 public class GameCharacter {
 
 /*
-    GameCharacter 를 설계해주세요.
+    GameCharacter를 설계해 주세요.
 
-    attack(): 콘솔에 "name attacks!" 메시지를 출력하는 메서드.
-    takeDamage(int damage): 캐릭터가 받은 데미지를 health에서 차감하는 메서드.
+    attack() : 콘솔에 "name attacks!" 메시지를 출력하는 메서드
+    takeDamage(int damage): 캐릭터가 받은 데미지를 health에서 차감하는 메서드
 
-    - 메인 메서드에서 두 캐릭터를 생성하고 공격을 받고 피해받는 것을 주고받아보세요.
+    메인 메서드에서 두 캐릭터를 생성하고 공격을 받고 피해 받는 것을 주고받아보세요.
 */
 
     private String characterName;

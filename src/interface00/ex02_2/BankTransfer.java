@@ -2,7 +2,7 @@ package interface00.ex02_2;
 
 import java.text.DecimalFormat;
 
-public class BankTransfer extends Payment implements PaymentAble {
+public class BankTransfer extends Payment implements Payable {
 
     public BankTransfer(int amount) {
         super(amount);

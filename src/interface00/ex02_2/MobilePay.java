@@ -2,7 +2,7 @@ package interface00.ex02_2;
 
 import java.text.DecimalFormat;
 
-public class MobilePay extends Payment implements PaymentAble {
+public class MobilePay extends Payment implements Payable {
 
     public MobilePay(int amount) {
         super(amount);

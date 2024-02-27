@@ -1,6 +1,6 @@
 package interface00.ex02_2;
 
-public interface PaymentAble {
+public interface Payable {
 
     void pay();
 }

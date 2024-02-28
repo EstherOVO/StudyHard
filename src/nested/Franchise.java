@@ -1,4 +1,4 @@
-package interface00;
+package nested;
 
 public class Franchise {
 

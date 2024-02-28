@@ -1,6 +1,4 @@
-package interface00;
-
-import interface00.Franchise;
+package nested;
 
 public class FranchiseMain {
     public static void main(String[] args) {

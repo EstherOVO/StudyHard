@@ -64,7 +64,6 @@ public class Ex04 {
                 System.out.println(e.getMessage());
             }
         }
-
     }
 
     public static void validateSsn(String ssn) {

@@ -1,5 +1,6 @@
 package stream;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -25,10 +26,10 @@ public class Ex02 {
 
         List<Double> list = scores.stream()
                 .filter(number -> number > 0)
-                .map(Math::sqrt)
                 .sorted()
+                .peek(originalNum -> System.out.print(originalNum + " : "))
+                .map(Math::sqrt)
+                .peek(System.out::println)
                 .toList();
-
-        list.forEach(System.out::println);
     }
 }

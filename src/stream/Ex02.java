@@ -24,7 +24,7 @@ public class Ex02 {
         List<Integer> scores = Arrays.asList(16, -9, 4, 1, -16, 9, 25);
 
         List<Double> list = scores.stream()
-                .filter(number -> number >= 0)
+                .filter(number -> number > 0)
                 .map(Math::sqrt)
                 .sorted()
                 .toList();

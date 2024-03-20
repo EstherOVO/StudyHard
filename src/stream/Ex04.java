@@ -14,7 +14,7 @@ public class Ex04 {
 
         Map<String, Integer> movieRatings = Map.of("The Shawshank Redemption", 9, "The Godfather", 9, "The Dark Knight", 8, "Pulp Fiction", 8, "Fight Club", 7);
 
-        출력 결과:
+        출력 결과 :
         The Shawshank Redemption - 9
         The Godfather - 9
         The Dark Knight - 8

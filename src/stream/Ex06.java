@@ -8,7 +8,7 @@ public class Ex06 {
     public static void main(String[] args) {
 
 /*
-        문제 7. 상품 리뷰순과 가격순 정렬
+        문제 6. 상품 리뷰순과 가격순 정렬
 
         온라인 상점의 상품들의 리스트가 있습니다.
         각 상품은 이름, 가격, 리뷰 수를 가지고 있습니다.

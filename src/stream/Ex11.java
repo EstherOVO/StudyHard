@@ -29,6 +29,7 @@ public class Ex11 {
         출력예시
         ===
         평균 리뷰 점수 : 4.2
+        5점 리뷰 수 : 2
 */
 
         List<ProductReview> reviews = Arrays.asList(

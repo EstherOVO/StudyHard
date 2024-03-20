@@ -20,7 +20,6 @@ public class Ex08 {
         - 적어도 한 명의 사용자가 "Java Programming" 책을 대출했는지 검사합니다.
         - 어떤 사용자도 "The Great Gatsby" 책을 대출하지 않았는지 검사합니다.
 
-        데이터
         Map<String, List<String>> userBookRentals = Map.of(
             "user1", Arrays.asList("The Lord of the Rings", "Java Programming"),
             "user2", Arrays.asList("Java Programming", "Effective Java"),

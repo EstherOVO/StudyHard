@@ -13,7 +13,7 @@ public class Ex02 {
 
         List<Integer> scores = Arrays.asList(16, -9, 4, 1, -16, 9, 25);
 
-        출력 결과:
+        출력 결과 :
         4.0
         2.0
         1.0

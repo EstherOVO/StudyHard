@@ -29,6 +29,8 @@ public class Ex12 {
         출력예시
         ===
         총 급여 : 26000
+        Developer 평균 급여 : 5500.0
+        Manager 평균 급여 : 7500.0
 */
 
         List<Employee> employees = Arrays.asList(

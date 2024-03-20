@@ -1,6 +1,5 @@
 package stream;
 
-import java.util.Collections;
 import java.util.Map;
 
 public class Ex04 {

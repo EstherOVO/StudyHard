@@ -41,6 +41,6 @@ public class Ex10 {
         long hasHighScore = grades.stream()
                 .filter(grade -> grade >= avg)
                 .count();
-        System.out.println("& 평균 이상 성적을 보유한 학생 수 : " + hasHighScore + "명");
+        System.out.println("& 평균 이상 성적의 학생 수 : " + hasHighScore + "명");
     }
 }

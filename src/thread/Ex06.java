@@ -80,7 +80,7 @@ public class Ex06 {
 
             System.out.println("음식이 완성되었습니다~!");
 
-            notifyAll();;
+            notifyAll();
 
             wait();
         }

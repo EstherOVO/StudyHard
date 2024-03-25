@@ -15,8 +15,6 @@ public class Ex07 {
 
         Thread manager = new Thread(new Manager(cafe));
         manager.start();
-
-
     }
 
     public static class Cafe {

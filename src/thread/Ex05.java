@@ -63,9 +63,9 @@ public class Ex05 {
         @Override
         public void run() {
 
-            long startTime = System.currentTimeMillis();
-
             try {
+
+                long startTime = System.currentTimeMillis();
 
                 while (true) {
 

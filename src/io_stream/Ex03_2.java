@@ -2,11 +2,9 @@ package io_stream;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Ex03_2 {
     public static void main(String[] args) {

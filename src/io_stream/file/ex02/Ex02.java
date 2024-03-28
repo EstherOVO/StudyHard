@@ -26,38 +26,40 @@ public class Ex02 {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("§ 병합할 파일의 개수를 입력하세요 : ");
+        int number = scanner.nextInt();
+
+        scanner.nextLine();
+
         Path path = Paths.get("src", "io_stream", "file", "ex02");
 
-        try (Writer writer = new FileWriter(path.toFile() + "/merged.txt", true);
-             BufferedWriter bw = new BufferedWriter(writer);){
-
-            System.out.print("§ 병합할 파일의 개수를 입력하세요 : ");
-            int number = scanner.nextInt();
+        try (Writer writer = new FileWriter(path.toFile() + "/merged.txt");
+             BufferedWriter bw = new BufferedWriter(writer)) {
 
             for (int i = 0; i < number; i++) {
 
                 System.out.print("§ 파일 경로를 입력하세요 : ");
                 String file = scanner.next();
 
-                Path filePath = path.resolve(file);
+                List<String> list = Files.lines(path.resolve(file))
+                        .toList();
 
-                Stream<String> lines = Files.lines(filePath);
-
-                List<String> list = lines.toList();
-
-                for (String string : list) {
-                    bw.write(string);
+                for (String lyrics : list) {
+                    bw.write(lyrics);
                     bw.newLine();
                 }
 
-                bw.write("----------");
-                bw.newLine();
+                if (i < number - 1) {
+                    bw.write("---------------------");
+                    bw.newLine();
+                }
             }
 
+            System.out.println("병합이 완료되었습니다.");
             bw.flush();
 
         } catch (NoSuchFileException e) {
-            System.out.println("파일이 존재하지 않습니다.");
+            System.out.println("파일을 찾을 수 없습니다.");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

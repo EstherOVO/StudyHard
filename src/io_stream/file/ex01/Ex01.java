@@ -7,6 +7,7 @@ import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
@@ -40,40 +41,46 @@ public class Ex01 {
         홍길동.user
 */
 
-        try {
+        Scanner scanner = new Scanner(System.in);
 
-            Scanner scanner = new Scanner(System.in);
-            Path path = Paths.get("src", "io_stream", "file", "ex01", "users1");
+        System.out.println("[1] 정보 저장 | [2] 정보 조회 | * 종료는 \"0\"을 입력해 주세요. *");
+
+        Path path = Paths.get("src", "io_stream", "file", "ex01", "users1");
+
+        try {
 
             while (true) {
 
-                System.out.println("[1] 정보 저장 | [2] 정보 조회 | 종료는 \"0\" 입력");
-                System.out.print("§ 입력 번호 : ");
+                System.out.println();
+                System.out.print("⊙ 번호 : ");
                 int number = scanner.nextInt();
 
+                scanner.nextLine();
+
                 switch (number) {
-                    case 1 :
+                    case 1:
                         System.out.print("● 이름 : ");
-                        String name = scanner.next();
+                        String name = scanner.nextLine();
 
                         System.out.print("● 이메일 : ");
-                        String email = scanner.next();
+                        String email = scanner.nextLine();
 
                         System.out.print("● 나이 : ");
                         int age = scanner.nextInt();
 
-//                      Writer writer = new FileWriter("src/io_stream/file/ex01/users1/" + name + ".user");
-                        Path paths = path.resolve(name + ".user");
-                        Writer writer = new FileWriter(paths.toFile());
+                        Path finalPath = path.resolve(name + ".user");
+                        Writer writer = new FileWriter(finalPath.toFile());
 
                         saveInfo(name, email, age, writer);
+
+                        writer.close();
                         break;
-                    case 2 :
-                        Stream<Path> list = Files.list(path);
-                        list.map(Path::getFileName)
+                    case 2:
+                        Files.list(path)
+                                .map(Path::getFileName)
                                 .forEach(System.out::println);
                         break;
-                    case 0 :
+                    case 0:
                         System.out.println("프로그램을 종료합니다.");
                         return;
                 }

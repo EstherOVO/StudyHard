@@ -9,6 +9,24 @@ import java.util.Scanner;
 public class Ex02 {
     public static void main(String[] args) {
 
+/*
+        연습 문제 2. 사용자 정보 업데이트
+
+        요구사항 :
+        사용자로부터 userId, name, password, age, email을 입력받아
+        해당 userId를 가진 사용자의 정보를 업데이트하세요.
+
+        사용자로부터 다음 정보를 입력받습니다.
+
+        userId : 업데이트 할 사용자 ID
+        name : 새 사용자 이름
+        password : 새 비밀번호
+        age : 새 나이
+        email : 새 이메일 주소
+
+        - 입력받은 정보를 데이터베이스의 users 테이블에 업데이트합니다.
+*/
+
         String url = "jdbc:mysql://localhost:3306/jdbc";
         String user = "root";
         String password = "1234";

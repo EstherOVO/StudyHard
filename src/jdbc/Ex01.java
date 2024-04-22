@@ -10,7 +10,7 @@ public class Ex01 {
     public static void main(String[] args) {
 
 /*
-        연습 문제 2.
+        연습 문제 1. 사용자 정보 입력
 
         요구사항 :
         사용자로부터 userId, name, password, age, email을 입력받아,

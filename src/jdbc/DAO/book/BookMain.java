@@ -58,7 +58,7 @@ public class BookMain {
     public static void select() {
 
         System.out.println("[Select]");
-        System.out.println("1. Search By ISBN | 2. Search By Title | 3. Search By Author");
+        System.out.print("1. Search By ISBN | 2. Search By Title | 3. Search By Author > ");
         String number = scanner.nextLine();
 
         switch (number) {

@@ -54,7 +54,7 @@ public class MemberDAOImpl implements MemberDAO {
             rs.close();
 
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
         return null;
     }
@@ -74,7 +74,7 @@ public class MemberDAOImpl implements MemberDAO {
             pstmt.executeUpdate();
 
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
@@ -89,7 +89,7 @@ public class MemberDAOImpl implements MemberDAO {
             pstmt.executeUpdate();
 
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
@@ -116,7 +116,7 @@ public class MemberDAOImpl implements MemberDAO {
             rs.close();
 
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
         return memberList;
     }

@@ -85,7 +85,7 @@ public class MemberMain {
 
     public static void update() {
 
-        System.out.println("[Select]");
+        System.out.println("[Update]");
         System.out.print("ID : ");
         int id = Integer.parseInt(scanner.nextLine());
 
@@ -116,7 +116,7 @@ public class MemberMain {
 
     public static void delete() {
 
-        System.out.println("[Select]");
+        System.out.println("[Delete]");
         System.out.print("ID : ");
         int id = Integer.parseInt(scanner.nextLine());
 
